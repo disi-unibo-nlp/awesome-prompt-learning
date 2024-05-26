@@ -8,7 +8,7 @@ This list serves as a complement to the survey below.
 
 - [ACL 2021] Prefix-Tuning: Optimizing Continuous Prompts for Generation [[pdf]](https://aclanthology.org/2021.acl-long.353.pdf) [[code]](https://github.com/XiangLi1999/PrefixTuning)
 
-- [ACL 2021] The Power of Scale for Parameter-Efficient Prompt Tuning [[pdf]](https://aclanthology.org/2021.emnlp-main.243.pdf) [[code]] (https://github.com/google-research/prompt-tuning)
+- [ACL 2021] The Power of Scale for Parameter-Efficient Prompt Tuning [[pdf]](https://aclanthology.org/2021.emnlp-main.243.pdf) [[code]](https://github.com/google-research/prompt-tuning)
 
 - [ACL 2022] P-Tuning: Prompt Tuning Can Be Comparable to Fine-tuning Across Scales and Tasks [[pdf]](https://aclanthology.org/2022.acl-short.8.pdf) [[code]](https://github.com/THUDM/P-tuning-v2)
 
