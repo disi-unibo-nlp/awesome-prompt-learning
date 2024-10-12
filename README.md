@@ -1,6 +1,6 @@
 # awesome-prompt-learning
 
-This is a curated list of papers about Prompt Learning in natural language processing (NLP) and vision-language (VL).
+This is a curated list of papers about Prompt Learning in natural language processing (NLP).
 
 This list serves as a complement to the survey below.
 
