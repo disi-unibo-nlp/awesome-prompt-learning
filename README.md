@@ -1,11 +1,25 @@
-# Awesome Prompt Learning
+<div id="user-content-toc">
+  <ul align="center" style="list-style: none;">
+    <summary>
+      <h1>🌟 Awesome Prompt Learning 🌟</h1><br>
+      A curated repository of <i>automated prompt</i> techniques
+    </summary>
+  </ul>
+</div>
 
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/disi-unibo-nlp/awesome-prompt-learning?tab=readme-ov-file) 
 <!--[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT) -->
 
-This is a curated list of papers on Prompt Learning applied to text downstream tasks in natural language processing (NLP) and natural language generation (NLG).
+This curated repository is your gateway to automated prompt engineering, where models learn to craft their own prompts, replacing the tedious, trial-and-error process of manual prompt design!
 
-The list serves as a complement to the survey below.
+The following work provides a collection of the most recent papers about automated prompt learning techniques with corresponding, approach-specific, tags to help users navigate this new paradigm. 
+<br>
+<br>
+<p align="right"><br><i>"<br>Consider a future where the arduous art of manually crafting prompts,<br>once mired in endless cycles of trial and error, becomes but a relic of our past.<br>In that future, these intelligent machines shall, by their own inherent capacities,<br>discern the optimal prompt to address any challenge.<br>"</i><br><br>-- Dr. Archibald Promptwood</p>
+
+## 🔔 News
+
+- **[2025-02-15]** We create this repository to maintain a list of paper about *Automated prompt techniques*.
 
 ## 🔍 Contents
 
@@ -13,15 +27,16 @@ The list serves as a complement to the survey below.
 - [📜 Papers](#papers)
     - [🏷️ Tagset](#tagset)
     - [🎯 The List](#list)
-- [🔍 Query](#query)
-- [🚩 Citation](#citation)
+- [🔍 Query](#query)<!--- [🚩 Citation](#citation)-->
 - [🎉 Contribution](#contribution)
 - [🤝 Acknowledgement](#acknowledgement)
 
 <a id="intro"></a>
 ## 🌟 What's Prompt Learning?
 
-Prompt Learning in the context of large language models (LLMs) refers to an automatic technique where task-specific instructions are provided as part of the input prompt to guide the model's behavior without modifying its underlying parameters. This method leverages the pre-trained knowledge of LLMs and helps them generalize across various text downstream tasks such as text classification, summarization, translation, and question-answering withoud doing any form of fine-tuning.
+Prompt Learning refers to the group of techniques that use task-specific input sequences--prompts--to steer the Pre-Trained Large Language Model into producing a desired output.
+This paradigm shift from "_pre-train, fine-tune_" to "_pre-train, prompt, predict_" aims at better navigating a model's knowledge.
+Automated prompt learning techniques overcome manual engineering challenges, automatically crafting and/or optimizing prompts, unlocking superior task performance.
 
 <a id="papers"></a>
 ## 📜 Papers
@@ -222,12 +237,14 @@ In this paper list, we tag each paper with one or more labels defined in the tab
 
 <a id="query"></a>
 ## 🔍 Query
-The query corresponding to the search for the papers listed above was executed on Scopus and is specified below to provide maximum reproducibility.
+
+To ensure reproducibility, we provide the exact query used to retrieve the papers analyzed in this survey. The search was conducted on Scopus, with the full list of filters provided below. The final execution of the query took place on November 29, 2024. Since Scopus' database contents are continuously updated, re-executing the same query will produce additional results beyond those considered in this study.
 
 ```plaintext
 (TITLE(( "prompt tuning" ) OR ( "prefix tuning" ) OR ( "prompt learning" ) OR ( "soft prompt*" ) OR ( "prompt* optimization" )) AND PUBYEAR > 2020 AND PUBYEAR < 2025 AND ( LIMIT-TO ( SUBJAREA,"COMP" ) )  AND ( LIMIT-TO ( PUBSTAGE,"final" ) )  AND ( LIMIT-TO ( DOCTYPE,"cp" ) OR LIMIT-TO ( DOCTYPE,"ar" ) )  AND ( LIMIT-TO ( LANGUAGE,"English" ) )  AND ( LIMIT-TO ( OA,"all" ) OR LIMIT-TO ( OA,"publisherfullgold" ) )  AND ( EXCLUDE ( EXACTKEYWORD,"Image Features" ) OR EXCLUDE ( EXACTKEYWORD,"Image Recognition And Understanding" ) OR EXCLUDE ( EXACTKEYWORD,"Images Classification" ) OR EXCLUDE ( EXACTKEYWORD,"Vision + Language And/or Other Modalities" ) OR EXCLUDE ( EXACTKEYWORD,"Vision + Language And/or Other Modality" ) OR EXCLUDE ( EXACTKEYWORD,"Vision-language Models" ) OR EXCLUDE ( EXACTKEYWORD,"Learning For Vision" ) OR EXCLUDE ( EXACTKEYWORD,"Vision-language Model" ) OR EXCLUDE ( EXACTKEYWORD,"Image Classification" ) OR EXCLUDE ( EXACTKEYWORD,"Image Recognition" ) OR EXCLUDE ( EXACTKEYWORD,"Visual Prompts" ) OR EXCLUDE ( EXACTKEYWORD,"Image Enhancement" ) OR EXCLUDE ( EXACTKEYWORD,"Computer Vision" ) OR EXCLUDE ( EXACTKEYWORD,"Visual Languages" ) OR EXCLUDE ( EXACTKEYWORD,"Multi-modal" ) OR EXCLUDE ( EXACTKEYWORD,"Multi-modal Learning" ) ) )
 ```
 
+<!--
 <a id="citation"></a>
 ## 🚩 Citation
 
@@ -257,11 +274,14 @@ You are also welcome to cite our papers.
       url={}, 
 }
 ```
+-->
 
 <a id="contribution"></a>
 ## 🎉 Contribution
 
-We thank all contributors to this repo
+Despite our best efforts, we acknowledge that some works may not be included in this repository. To help improve this list, we welcome contributions! Feel free to open a PR or issue in our repository to suggest missing papers. 😊
+
+We thank all contributors to this repo!
 <!-- our names and email here -->
 
 <a id="acknowledgement"></a>
