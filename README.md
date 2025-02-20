@@ -27,6 +27,7 @@ The following work provides a collection of the most recent papers about automat
 - [📜 Papers](#papers)
     - [🏷️ Tagset](#tagset)
     - [🎯 The List](#list)
+- [💾 Datasets](#datasets)
 - [🔍 Query](#query)<!--- [🚩 Citation](#citation)-->
 - [🎉 Contribution](#contribution)
 - [🤝 Acknowledgement](#acknowledgement)
@@ -234,6 +235,41 @@ In this paper list, we tag each paper with one or more labels defined in the tab
 111. **Multi-Relation Extraction for Cybersecurity Based on Ontology Rule-Enhanced Prompt Learning** (Electronics) [[paper](https://doi.org/10.3390/electronics13122379)]<br>![](https://img.shields.io/badge/Cloze-7c7f55)<br>![](https://img.shields.io/badge/Non%0APEFT-e8b85c)
 
 113. **Knowledge-injected Prompt Learning for Chinese Biomedical Entity Normalization** (ACM) [[paper](https://doi.org/10.1145/3689629)]<br>![](https://img.shields.io/badge/Hybrid-c381a7)<br>![](https://img.shields.io/badge/Cloze-7c7f55)<br>![](https://img.shields.io/badge/Non%0APEFT-e8b85c)
+
+<a id="datasets"></a>
+## 💾 Datasets
+
+This repository maintains two datasets tracking the aforementioned research papers in prompt learning:
+
+- **Automated Prompt Learning Papers** (```automated_prompt_learning_papers.csv```)
+  - Includes only papers that employ automated prompt learning techniques (i.e., the one listed above)
+- **All Prompt Learning Papers** (```all_prompt_learning_papers.csv```)
+  - Contains all retrieved papers from the Scopus search, including non-automated approaches and those excluded from the study. 
+    Papers were not included in our analysis if:
+    <br>❌ Did not focused on textual downstream tasks
+    <br>❌ Utilized multi-modal approaches
+    <br>❌ They were theoretical analyses without novel methods
+   
+### Datasets Guide
+
+Each dataset contains the following columns:
+
+| Column | Explanation |
+|--------|-------------|
+| Publication Date | Paper publication date |
+| Title | Full title of the paper |
+| Acronym | Paper's method acronym |
+| Venue | Conference or journal where the paper was published |
+| Pre-training Objective | The pre-training objective employed during training and aimed at elliciting via prompts (i.e. Cloze, Prefix) |
+| Automation Object/Training Strategy | The category of the paper based on our taxonomy |
+| Prompt Length<br>(soft prompts) | # of soft prompt tokens |
+| Prompt Initialization Strategy<br>(soft prompts) | Soft prompt initialization strategy |
+| PLMs | Pre-trained language models used |
+| Datasets | Datasets utilized in the study |
+| Tasks | Target NLP tasks |
+| Code | Link to the implementation, if available |
+| Additional Notes<br>(only in ```all_prompt_learning_papers.csv```) | Indicates whether the paper was categorized as a study or discarded based on the criteria mentioned above |
+
 
 <a id="query"></a>
 ## 🔍 Query
