@@ -19,7 +19,7 @@ The following work provides a collection of the most recent papers about automat
 
 ## 🔔 News
 
-- **[2025-02-15]** We create this repository to maintain a list of paper about *Automated prompt techniques*.
+- **[2025-02-15]** Creation of the repository to maintain a list of papers about *Automated prompt techniques*.
 
 ## 🔍 Contents
 
