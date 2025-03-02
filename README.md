@@ -15,7 +15,7 @@ This curated repository is your gateway to automated prompt engineering, where m
 The following work provides a collection of the most recent papers about automated prompt learning techniques with corresponding, approach-specific, tags to help users navigate this new paradigm. 
 <br>
 <br>
-<p align="right"><br><i>"<br>Consider a future where the arduous art of manually crafting prompts,<br>once mired in endless cycles of trial and error, becomes but a relic of our past.<br>In that future, these intelligent machines shall, by their own inherent capacities,<br>discern the optimal prompt to address any challenge.<br>"</i><br><br>-- Dr. Archibald Promptwood</p>
+<p align="right"><br><i>"<br>Consider a future where the arduous art of manually crafting prompts,<br>once mired in endless cycles of trial and error, becomes but a relic of our past.<br>In that future, these intelligent machines shall, by their own inherent capacities,<br>discern the optimal prompt to address any challenge.<br>"</i>
 
 ## 🔔 News
 
